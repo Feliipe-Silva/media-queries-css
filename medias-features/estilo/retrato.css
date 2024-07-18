@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+  /*  PARA MODO RETRATO  (orientation: portrait)  */
+
+  * {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    max-width: 700px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1::after {
+  content: ' MODO RETRATO';
+  text-decoration: underline;
+}

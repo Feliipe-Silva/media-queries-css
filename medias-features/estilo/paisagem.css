@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+  /*  PARA MODO PAISAGEM  (orientation: landscape)  */
+
+  * {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background-color: rgb(50, 160, 92);
+    color: blue;
+}
+
+h1::after {
+  content: ' MODO PAISAGEM';
+}

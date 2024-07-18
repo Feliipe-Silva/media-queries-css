@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+@media screen and (min-width: 768px) {
+    span#icon {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+    }
+
+    menu#itens ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    menu#itens ul li{
+        border: 1px solid rgba(0, 0, 0, 0.384);
+        border-radius: 4px;
+        margin: 0 16px;
+        background-color: rgb(92, 92, 92)
+    }
+
+    main {
+        max-width: 800px;
+    }
+}
